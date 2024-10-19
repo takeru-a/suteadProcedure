@@ -9,7 +9,7 @@
     "lint": "biome lint --write ./src",
     "format": "biome format --write ./src",
     "preview": "vite preview",
-    "test": "vitest watch",
+    "test": "vitest --watch",
     "coverage": "vitest run --coverage",
     "check": "biome check --write ./src"
   },
